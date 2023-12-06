@@ -3,7 +3,7 @@ export default {
     name: 'AppProva',
     data() {
         return {
-            title: 'Quanto mi hai fatto penare'
+            title: 'Sei stata una bellissima scoperta ma quanto mi hai fatto sudare'
 
         }
     }

@@ -1,5 +1,6 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 export default {
   name: 'AppPrincipale',
   data() {
@@ -7,15 +8,15 @@ export default {
     }
   },
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 </script>
 
 <template>
-  <AppTitle>
-
-  </AppTitle>
+  <AppTitle />
+  <AppHero />
 </template>
 
 <style scoped></style>
