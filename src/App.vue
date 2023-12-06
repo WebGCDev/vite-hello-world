@@ -1,8 +1,21 @@
 <script>
+import AppTitle from './components/AppTitle.vue';
+export default {
+  name: 'AppPrincipale',
+  data() {
+    return {
+    }
+  },
+  components: {
+    AppTitle
+  }
+}
 </script>
 
 <template>
+  <AppTitle>
+
+  </AppTitle>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: AppProva,
+    name: 'AppProva',
     data() {
         return {
             title: 'Quanto mi hai fatto penare'
